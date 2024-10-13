@@ -1,0 +1,215 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #ffffff !important;
+  overflow: hidden !important;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left !important;
+  color: #ea0000 !important;
+  text-align: center !important;
+  padding: 14px 16px !important;
+  text-decoration: none !important;
+  font-size: 17px !important;
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #000000 !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #5db695 !important;
+  color: white !important;
+}
+
+#womp {
+color: rgb(107, 20, 3) !important;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+* {
+	background-color: black;
+	text-align: center;
+	font-size: 100px;
+}
+
+* {
+	color: white;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+input {
+  width: 10%;
+  height: 10%;
+  color: white;
+  background-color: black;
+  border: 10px;
+  border-color: white;
+}
+
+label {
+font-size: 5px;
+font-weight: lighter;
+font-family: 'Courier New', Courier, monospace;
+}
+
+/* For the signup element on the homepage */
+b {
+  font-size: 50px;
+}
+
+button {
+  width: 10%;
+  height: 5%;
+  font-size: 10px;
+}
+
+#signup {
+  background-color: blue !important;
+}
+
+input {
+  width: 30%;
+  height: 10%;
+  font-size: 1px;
+}
+
+/* Disclaimer small font */
+
+#disclaimer {
+  font-size: 10px;
+}
+
+tr {
+  font-size: 5px;
+  font-family: fantasy;
+  background-color: white;
+}
+
+table {
+  border-width: 10px;
+  border-color: white;
+  background-color: white;
+}
+
+th {
+  font-size: 100px !important;
+    font-family: monospace !important;
+    font-weight: bold;
+}
+
+td {
+  font-size: 50px !important;
+  font-weight: lighter;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+
+@font-face {
+  font-family: "Sixtyfour Convergence", sans-serif;
+  src: url(https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap);
+}
+
+h2 {
+  font-family: "Sixtyfour Convergence", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0,
+    "XELA" 0,
+    "YELA" 0;
+}
