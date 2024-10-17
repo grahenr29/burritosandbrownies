@@ -7,7 +7,7 @@
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left !important;
-  color: #ea0000 !important;
+  color: #f7f4f4 !important;
   text-align: center !important;
   padding: 14px 16px !important;
   text-decoration: none !important;
@@ -212,4 +212,20 @@ h2 {
     "SCAN" 0,
     "XELA" 0,
     "YELA" 0;
+}
+
+#dog {
+  background-color: white;
+  color: red !important;
+  width: 70%;
+  height: 100%;
+  font-size: 50px;
+}
+
+a {
+  font-size: 30px;
+}
+
+#donateservice {
+  background-color: red;
 }
